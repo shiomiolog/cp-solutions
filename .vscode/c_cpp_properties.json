@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/Users/shiomiolog/workspace/ac-library"
+            ],
+            "defines": [],
+            "compilerPath": "/opt/homebrew/bin/g++-16",
+            "cStandard": "c17",
+            "cppStandard": "gnu++23",
+            "intelliSenseMode": "macos-gcc-arm64"
+        }
+    ],
+    "version": 4
+}
