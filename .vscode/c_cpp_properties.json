@@ -1,14 +1,26 @@
 {
     "configurations": [
         {
+            "name": "WSL / Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/shiomiolog/workspace/ac-library"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "gnu++23",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
             "name": "Mac",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/Users/shiomiolog/workspace/ac-library"
+                "/home/shiomiolog/workspace/ac-library"
             ],
             "defines": [],
-            "compilerPath": "/opt/homebrew/bin/g++-16",
-            "cStandard": "c17",
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c23",
             "cppStandard": "gnu++23",
             "intelliSenseMode": "macos-gcc-arm64"
         }
