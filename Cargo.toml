@@ -1,0 +1,12 @@
+[package]
+name = "cp-solutions"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+proconio = { version = "=0.5.0", features = ["derive"] }
+ac-library-rs = "=0.2.0"
+
+[[bin]]
+name = "test_run"
+path = "test/test.rs"
